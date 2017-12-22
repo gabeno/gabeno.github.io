@@ -5,7 +5,6 @@
 # Site
 title: Stacked
 subtitle: To learn is eternity
-description: Take a peek into my world, albeit software journey, via my musings here.
 author: Gabriel Majivu
 language: en
 timezone: Africa/Nairobi
@@ -38,11 +37,12 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
+  style: tomorrow
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -51,7 +51,7 @@ index_generator:
   path: ''
   per_page: 6
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -84,4 +84,58 @@ deploy:
 
 # Links
 twitter_username: https://twitter.com/GabrielMajivu
-github_username: https://github.com/gabeno
+github_username: gabeno
+
+## ======================== ##
+#
+#
+#author: Gabriel Majivu # 作者
+#description: yanm1ng's blog
+keyword: blog, writing, article, programming, life, learning, study, project
+favicon: css/images/logo.png
+
+excerpt_link: Read more
+
+menu:
+ Home: /
+ #About: /about/
+ Projects: /projects/
+ Tags: /tags/
+ Archives: /archives/
+
+# catalog
+catalog: true
+
+# donate
+donate: false
+
+# qrcode
+qrcode: false
+
+# comment
+# you can set gitment or uyan
+
+comment:
+
+# gitment config
+gitment_owner:
+gitment_repo:
+gitment_oauth_id:
+gitment_oauth_secret:
+
+# uyan
+# if you want to use uyan as your blog comment, plz remove/comment out gitment config
+
+baidu_id:
+ba_track_id:
+
+about:
+  banner: /css/images/kilimanjaro.jpg
+  avatar: https://avatars1.githubusercontent.com/u/1006432?v=4?v=3&s=460
+  description: Take a peek into my world via my musings here.
+  # Links
+  weibo_username:
+  twitter_username: GabrielMajivu
+  github_username: gabeno
+  zhihu_username:
+  douban_username:
