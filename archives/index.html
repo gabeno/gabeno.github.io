@@ -3,10 +3,10 @@
   <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-  <meta name="description" content="Take a peek into my world, albeit software journey, via my musings here.">
-  <meta name="keyword" content="hexo-theme, vuejs">
+  <meta name="description" content="yanm1ng&#39;s blog">
+  <meta name="keyword" content="blog, writing, article, programming, life, learning, study, project">
   
-    <link rel="shortcut icon" href="/css/images/logo.png">
+    <link rel="shortcut icon" type="image/ico" href="css/images/logo.png"/> 
   
   <title>
     
@@ -25,7 +25,8 @@
 <script src="/js/gitment.js"></script>
 </head>
 <div class="wechat-share">
-  <img src="/css/images/logo.png" />
+    <!--<img src="/css/images/logo.png" />-->
+  <img src="/css/images/sura_400x400.jpeg" />
 </div>
 
   <body>
@@ -45,25 +46,13 @@
       
         <li class="list-item">
           
-            <a href="/tags/" class="item-link">Tags</a>
+            <a href="/projects/" class="item-link">Projects</a>
           
         </li>
       
         <li class="list-item">
           
             <a href="/archives/" class="item-link">Archives</a>
-          
-        </li>
-      
-        <li class="list-item">
-          
-            <a href="/project/" class="item-link">Projects</a>
-          
-        </li>
-      
-        <li class="list-item">
-          
-            <a href="/about/" class="item-link">About</a>
           
         </li>
       
@@ -84,25 +73,13 @@
         
           <li class="menu-item">
             
-              <a href="/tags/" class="menu-link">Tags</a>
+              <a href="/projects/" class="menu-link">Projects</a>
             
           </li>
         
           <li class="menu-item">
             
               <a href="/archives/" class="menu-link">Archives</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/project/" class="menu-link">Projects</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/about/" class="menu-link">About</a>
             
           </li>
         
@@ -113,7 +90,7 @@
 
     <div id="article-banner">
   <h2>Archives</h2>
-  <p class="post-date">文章归档</p>
+  <!--<p class="post-date">文章归档</p>-->
 </div>
 <main class="app-body" id="archives">
   
@@ -127,8 +104,8 @@
     
     
       <div class="section-list-item">
-        <a href="/hello-world/" class="archive-title">Hello World</a>
-        <p class="archive-date">12-13</p>
+        <a href="/engineer-at-heart/" class="archive-title">Engineer At Heart</a>
+        <p class="archive-date">12-22</p>
       </div>
     
   </div>
@@ -138,19 +115,22 @@
 
 <script>
   (function () {
-    var url = 'http://gabeno.github.io/archives/index.html';
+    var url = 'https://gabeno.github.io/archives/index.html';
     $('#article-banner').geopattern(url);
     $('.header').removeClass('fixed-header');
   })();
 </script>
+
     <div class="scroll-top">
   <span class="arrow-icon"></span>
 </div>
+
     <footer class="app-footer">
   <p class="copyright">
-    &copy; 2017 | Proudly powered by <a href="https://hexo.io" target="_blank">Hexo</a>
+    &copy; 2017 | <a href="https://hexo.io" target="_blank">Hexo</a>
+    <!--
     <br>
-    Theme by <a href="https://github.com/yanm1ng">yanm1ng</a>
+    Theme: <a href="https://github.com/yanm1ng">yanm1ng</a>-->
   </p>
 </footer>
 
@@ -171,7 +151,7 @@
 </script>
 
 <script>
-  var hasLine = 'true';
+  var hasLine = 'false';
   async("//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js", function(){
     $('figure pre').each(function(i, block) {
       var figure = $(this).parents('figure');
@@ -192,5 +172,6 @@
 <!-- Baidu Tongji -->
 
 <script src="/js/script.js"></script>
+
   </body>
 </html>

@@ -359,10 +359,11 @@ h2.article-head {
   }
 }
 .logo {
-  background: url("images/logo.png");
+  background: url("images/sura_400x400.jpeg");
   background-size: contain;
   width: 40px;
   height: 40px;
+  border-radius: 20px;
   margin-right: 10px;
 }
 .home-link {
@@ -525,6 +526,7 @@ h2.article-head {
 .markdown-content p,
 .article-summary p {
   line-height: 1.6em;
+  margin-bottom: 1em;
 }
 .markdown-content p code,
 .article-summary p code {
