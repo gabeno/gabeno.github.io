@@ -100,11 +100,11 @@ menu:
  Home: /
  #About: /about/
  Projects: /projects/
- Tags: /tags/
+ #Tags: /tags/
  Archives: /archives/
 
 # catalog
-catalog: true
+catalog: false
 
 # donate
 donate: false
@@ -115,7 +115,7 @@ qrcode: false
 # comment
 # you can set gitment or uyan
 
-comment:
+comment: false
 
 # gitment config
 gitment_owner:
